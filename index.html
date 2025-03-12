@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Ops Airsoft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #556B2F;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Black Ops Airsoft </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="pistolas y revolveres.html">Pistolas y Revólveres</a></li>
+            <li><a href="#escopetas">Escopetas</a></li>
+            <li><a href="#rifles-asalto">Rifles de Asalto</a></li>
+            <li><a href="#rifles-precision">Rifles de Precisión</a></li>
+            <li><a href="#accesorios">Accesorios</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>¿Qué es el Airsoft?</h2>
+        <p>El airsoft es un deporte de estrategia basado en la simulación militar. Se practica desde la década de 1970 y ha ganado popularidad en todo el mundo.</p>
+        <p>Las réplicas de armas utilizadas en airsoft disparan pequeñas bolas de plástico, y los jugadores deben seguir estrictas medidas de seguridad para evitar lesiones.</p>
+    </section>
+    <section id="pistolas-revolveres">
+        <h2>Pistolas y Revólveres</h2>
+        <p>Las pistolas y revólveres son armas cortas utilizadas en airsoft para combates a corta distancia.</p>
+        <img src="https://www.primeguns.com.br/wp-content/uploads/2020/08/banner-armas-curtas-pistola-revolver-1.jpg" alt="Pistolas y Revólveres">
+    </section>
+    <section id="escopetas">
+        <h2>Escopetas</h2>
+        <p>Las escopetas de airsoft son ideales para combates a media distancia y suelen tener una gran dispersión de disparo.</p>
+        <img src="https://m.media-amazon.com/images/I/61DO9+oXvbL._AC_UF1000,1000_QL80_.jpg" alt="Escopetas">
+    </section>
+    <section id="rifles-asalto">
+        <h2>Rifles de Asalto</h2>
+        <p>Los rifles de asalto son armas largas utilizadas en airsoft para combates a media y larga distancia.</p>
+        <img src="https://m.media-amazon.com/images/I/41NXnkHRRLL._AC_SL1200_.jpg" alt="Rifles de Asalto">
+    </section>
+    <section id="rifles-precision">
+        <h2>Rifles de Precisión</h2>
+        <p>Los rifles de precisión son utilizados en airsoft para disparos a larga distancia con alta precisión.</p>
+        <img src="https://pbsports.com/cdn/shop/products/asg-69679.jpg?v=1650736546" alt="Rifles de Precisión">
+    </section>
+    <section id="accesorios">
+        <h2>Accesorios</h2>
+        <p>Los accesorios de airsoft incluyen una variedad de equipos adicionales como miras, linternas, y protectores.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdZLNR5JxbNYgXHHbj7_tQARfGZ93tzq1OZQ&s" alt="Accesorios">
+    </section>
+</body>
+</html>
+<script>
+    document.querySelector('nav ul li a[href="#pistolas-revolveres"]').setAttribute('href', 'pistolas-revolveres.html');
+    document.querySelector('nav ul li a[href="#escopetas"]').setAttribute('href', 'escopetas.html');
+    document.querySelector('nav ul li a[href="#rifles-asalto"]').setAttribute('href', 'rifles-asalto.html');
+    document.querySelector('nav ul li a[href="#rifles-precision"]').setAttribute('href', 'rifles-precision.html');
+    document.querySelector('nav ul li a[href="#accesorios"]').setAttribute('href', 'accesorios.html');
+</script>
